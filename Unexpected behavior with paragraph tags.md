@@ -8,7 +8,7 @@ created: 2025-01-11
 
 I've been using [Kimchi Reader](https://kimchi-reader.app) to learn more Korean vocabulary. Usually this involves first going to YouTube and finding a video that looks interesting. Then if I encounter a word I don't understand, I'll save it using Kimchi Reader's browser extension, which also includes a screenshot of the video and the audio at that moment. Then I can review the word later in Anki using their Anki add-on. (This process is called [sentence mining](https://www.youtube.com/watch?v=QBcQJESGQvc&t=25s).)
 
-I've sentence mined manually before by screenshotting my primary monitor, looking up the target word, and filling in Anki note fields manually, but it's quite time consuming. Kimchi Reader streamlines it into a few clicks, and as a result I've been able to mine a lot more vocabulary (around 700 entries at time of writing).[1]
+I've sentence mined manually before by screenshotting my primary monitor, looking up the target word, and filling in Anki note fields manually, but it's quite time consuming. Kimchi Reader streamlines it into a few clicks, and as a result I've been able to mine a lot more vocabulary (around 700 entries at time of writing).[^1]
 
 Overall the service and its extensions work well and I'm pretty happy with it. One downside is that some markup appears to be fixed and not customizable. For example, if I mined a [Sino-Korean word](https://en.wikipedia.org/wiki/Sino-Korean_vocabulary) like 의아하다 ("to be dubious, suspicious"), its corresponding hanja gets filled into a field like this:
 ```html
@@ -83,4 +83,4 @@ Even back in the days when I was writing HTML by hand, I don't think I ever (int
 Inside of Anki specifically I couldn't tell that something was wrong in the markup because I didn't have access to the console, but since then I found and installed the [AnkiWebView Inspector](https://ankiweb.net/shared/info/317460320) add-on which should hopefully make debugging these card styling issues easier in the future.
 
 ---
-[1] Unfortunately it doesn't plug into games (as far as I know), so if I wanted to use games for sentence mining (as I have done in the past) I'd still have to provide the image and audio myself. The image is easy enough but I wish I had an easy way to copy a few seconds of audio onto the clipboard to paste into Anki.
+[^1]: Unfortunately it doesn't plug into games (as far as I know), so if I wanted to use games for sentence mining (as I have done in the past) I'd still have to provide the image and audio myself. The image is easy enough but I wish I had an easy way to copy a few seconds of audio onto the clipboard to paste into Anki.
