@@ -1,4 +1,4 @@
-While working on [Sanity;Gone](https://sanitygone.help) I was trying to determine what minimum version of Safari to use. I say Safari specifically because it's the last major browser that has updates tied to the operating system version, unlike Firefox, Chrome, and Edge (the "evergreen" browsers). So I've compiled this brief list based on some major features we would use that cannot be easily transpiled[1].
+While working on [Sanity;Gone](https://sanitygone.help) I was trying to determine what minimum version of Safari to use. I say Safari specifically because it's the last major browser that has updates tied to the operating system version, unlike Firefox, Chrome, and Edge (the "evergreen" browsers). So I've compiled this brief list based on some major features we would use that cannot be easily transpiled[^1].
 
 **Note:** A version change like 13.0 → 13.1 is [considered a *major* version update by the Safari team](https://github.com/web-platform-dx/web-features/issues/173#issuecomment-1555386336), *not* a minor version like [semver](https://semver.org/). As such, 13.0 and 13.1 are listed separately.
 # Safari 10
@@ -35,4 +35,4 @@ While working on [Sanity;Gone](https://sanitygone.help) I was trying to determin
 - `overflow-anchor`
 
 ---
-[1] For example, operators like `??` and `??=` can be trivially transpiled, but features like the `inert` attribute or the `Intl` API require polyfills on browsers that do not support them natively.
+[^1]: For example, operators like `??` and `??=` can be trivially transpiled, but features like the `inert` attribute or the `Intl` API require polyfills on browsers that do not support them natively.
